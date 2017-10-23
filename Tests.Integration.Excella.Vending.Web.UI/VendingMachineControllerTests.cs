@@ -54,6 +54,7 @@ namespace Tests.Integration.Excella.Vending.Web.UI
         }
 
         [Test]
+        [Ignore("Ignore Reason")]
         public void InsertCoin_WhenCalledOnce_Expect25Balance()
         {
             _controller.InsertCoin();
