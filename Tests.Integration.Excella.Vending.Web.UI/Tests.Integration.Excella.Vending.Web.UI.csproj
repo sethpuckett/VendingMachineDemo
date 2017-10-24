@@ -107,7 +107,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="VendingMachineControllerTests.cs" />
+    <Compile Include="EFVendingMachineControllerTests.cs" />
+    <Compile Include="ADOVendingMachineControllerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
